@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: "Geist", sans-serif;
+}
+header {
+  font-family: "JetBrains Mono", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+.souligne {
+  text-decoration: underline;
+  color: #006c49;
+}
+.colortitle {
+  color: #006c49;
+}
+.finH {
+  color: #3c4a42;
+}
+svg {
+  background-color: #e2eae3;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px #bbcabf solid;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.Mcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+.titleMcard {
+  font-size: 40px;
+  font-weight: 700;
+}
+.text {
+  color: #3c4a42;
+  font-size: 16px;
+  font-weight: 400;
+}
+.miniMcard {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.button {
+  background-color: #e2eae3;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.button2 {
+  color: white;
+  background-color: #06b77f;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 30px;
+}
+.fcard {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.petit {
+  font-size: 16px;
+  font-weight: 400;
+}
+.b1 {
+  background-color: #06b77f;
+  color: white;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.b2 {
+  background-color: #bbcabf;
+  color: #3c4a42;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #bbcabf99;
+}
+.a {
+  font-weight: 600;
+}
+.b {
+  color: #6c7a71;
+  font-size: 12px;
+  font-weight: 400;
+}
+th {
+  background-color: #bbcabf;
+}
+.c {
+  color: #3c4a42;
+  font-size: 12px;
+  font-weight: 400;
+}
+.d {
+  color: #006c49;
+  font-size: 12px;
+  font-weight: 700;
+}
